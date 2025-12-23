@@ -19,7 +19,9 @@
     "-e",
     "GIT_EDITOR=code --wait",
     "--security-opt",
-    "label=disable"
+    "label=disable",
+    "--memory=12g",
+    "--cpus=4"
   ],
   "customizations": {
     "vscode": {
